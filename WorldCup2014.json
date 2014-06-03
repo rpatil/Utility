@@ -1,0 +1,151 @@
+{
+    "world_cup_2014": {
+        "header": "WORLD CUP 2014 BRAZIL",
+        "groups": {
+            "group_a": [
+                {
+                    "id": "bra",
+                    "label": "Brazil"
+                },
+                {
+                    "id": "cro",
+                    "label": "Croatia"
+                },
+                {
+                    "id": "mex",
+                    "label": "Mexico"
+                },
+                {
+                    "id": "cmr",
+                    "label": "Cameroon"
+                }
+            ],
+            "group_b": [
+                {
+                    "id": "esp",
+                    "label": "Spain"
+                },
+                {
+                    "id": "ned",
+                    "label": "Netherlands"
+                },
+                {
+                    "id": "chi",
+                    "label": "Chile"
+                },
+                {
+                    "id": "aus",
+                    "label": "Australia"
+                }
+            ],
+            "group_c": [
+                {
+                    "id": "col",
+                    "label": "Colombia"
+                },
+                {
+                    "id": "gre",
+                    "label": "Greece"
+                },
+                {
+                    "id": "civ",
+                    "label": "Côte d'Ivoire"
+                },
+                {
+                    "id": "jpn",
+                    "label": "Japan"
+                }
+            ],
+            "group_d": [
+                {
+                    "id": "uru",
+                    "label": "Uruguay"
+                },
+                {
+                    "id": "crc",
+                    "label": "Costa Rica"
+                },
+                {
+                    "id": "eng",
+                    "label": "England"
+                },
+                {
+                    "id": "ita",
+                    "label": "Italy"
+                }
+            ],
+            "group_e": [
+                {
+                    "id": "sui",
+                    "label": "Switzerland"
+                },
+                {
+                    "id": "ecu",
+                    "label": "Ecuador"
+                },
+                {
+                    "id": "fra",
+                    "label": "France"
+                },
+                {
+                    "id": "hon",
+                    "label": "Honduras"
+                }
+            ],
+            "group_f": [
+                {
+                    "id": "arg",
+                    "label": "Argentina"
+                },
+                {
+                    "id": "bih",
+                    "label": "Bosnia-Herzegovina"
+                },
+                {
+                    "id": "irn",
+                    "label": "Iran"
+                },
+                {
+                    "id": "nga",
+                    "label": "Nigeria"
+                }
+            ],
+            "group_g": [
+                {
+                    "id": "ger",
+                    "label": "Germany"
+                },
+                {
+                    "id": "por",
+                    "label": "Portugal"
+                },
+                {
+                    "id": "gha",
+                    "label": "Ghana"
+                },
+                {
+                    "id": "usa",
+                    "label": "United States"
+                }
+            ],
+            "group_h": [
+                {
+                    "id": "bel",
+                    "label": "Belgium"
+                },
+                {
+                    "id": "alg",
+                    "label": "Algeria"
+                },
+                {
+                    "id": "rus",
+                    "label": "Russia"
+                },
+                {
+                    "id": "kor",
+                    "label": "South Korea"
+                }
+            ]
+        }
+    }
+}

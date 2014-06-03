@@ -1,0 +1,113 @@
+var json_value = '[ {
+	"header": "WORLD CUP 2014 BRAZIL SCHEDULE",
+	"schedule": [ 
+		{"match": "1", "group": "A", "day": "Thu", "date": "Jun 12", "local_time":"17:00", "team_1":"Brazil", "team_2": "Croatia", "venue": "São Paulo"},
+		{"match": "2", "group": "A", "day": "Fri", "date": "Jun 13", "local_time":"13:00", "team_1":"Mexico", "team_2": "Cameroon", "venue": "Natal"},
+		
+		{"match": "3", "group": "B", "day": "Fri", "date": "Jun 13", "local_time":"16:00", "team_1":"Spain", "team_2": "Netherlands", "venue": "Salvador"},
+		{"match": "4", "group": "B", "day": "Fri", "date": "Jun 13", "local_time":"18:00", "team_1":"Chile", "team_2": "Australia", "venue": "Cuiabá"},
+
+		{"match": "5", "group": "C", "day": "Sat", "date": "Jun 14", "local_time":"13:00", "team_1":"Columbia", "team_2": "Greece", "venue": "Belo Horizonte"},
+		{"match": "6", "group": "C", "day": "Sat", "date": "Jun 14", "local_time":"22:00", "team_1":"Côte d'Ivoire", "team_2": "Japan", "venue": "Recife"},
+
+		{"match": "7", "group": "D", "day": "Sat", "date": "Jun 14", "local_time":"16:00", "team_1":"Uruguay", "team_2": "Costa Rica", "venue": "Fortaleza"},
+		{"match": "8", "group": "D", "day": "Sat", "date": "Jun 14", "local_time":"18:00", "team_1":"England", "team_2": "Italy", "venue": "Manaus"},
+
+		{"match": "9", "group": "E", "day": "Sun", "date": "Jun 15", "local_time":"13:00", "team_1":"Switzerland", "team_2": "Ecuador", "venue": "Brasília"},
+		{"match": "10", "group": "E", "day": "Sun", "date": "Jun 15", "local_time":"16:00", "team_1":"France", "team_2": "Honduras", "venue": "Porto Alegre"},
+
+		{"match": "11", "group": "F", "day": "Sun", "date": "Jun 15", "local_time":"19:00", "team_1":"Argentina", "team_2": "Bosnia-Herzegovina", "venue": "Rio de Janeiro"},
+		{"match": "12", "group": "F", "day": "Mon", "date": "Jun 16", "local_time":"16:00", "team_1":"Iran", "team_2": "Nigeria", "venue": "Curitiba"},
+
+		{"match": "13", "group": "G", "day": "Mon", "date": "Jun 16", "local_time":"13:00", "team_1":"Germany", "team_2": "Portugal", "venue": "Salvador"},
+		{"match": "14", "group": "G", "day": "Mon", "date": "Jun 16", "local_time":"19:00", "team_1":"Ghana", "team_2": "United States", "venue": "Natal"},
+
+		{"match": "15", "group": "H", "day": "Tue", "date": "Jun 17", "local_time":"13:00", "team_1":"Belgium", "team_2": "Algeria", "venue": "Belo Horizonte"},
+		{"match": "16", "group": "H", "day": "Tue", "date": "Jun 17", "local_time":"18:00", "team_1":"Russia", "team_2": "South Korea", "venue": "Cuiabá"},
+
+		{"match": "17", "group": "A", "day": "Tue", "date": "Jun 17", "local_time":"16:00", "team_1":"Brazil", "team_2": "Mexico", "venue": "Fortaleza"},
+		{"match": "18", "group": "A", "day": "Wed", "date": "Jun 18", "local_time":"18:00", "team_1":"Cameroon", "team_2": "Croatia", "venue": "Manaus"},
+
+		{"match": "19", "group": "B", "day": "Wed", "date": "Jun 18", "local_time":"16:00", "team_1":"Spain", "team_2": "Chile", "venue": "Rio de Janeiro"},
+		{"match": "20", "group": "B", "day": "Wed", "date": "Jun 18", "local_time":"13:00", "team_1":"Australia", "team_2": "Netherlands", "venue": "Porto Alegre"},
+
+		{"match": "21", "group": "C", "day": "Thu", "date": "Jun 19", "local_time":"13:00", "team_1":"Colombia", "team_2": "Côte d'Ivoire", "venue": "Brasília"},
+		{"match": "22", "group": "C", "day": "Thu", "date": "Jun 19", "local_time":"19:00", "team_1":"Japan", "team_2": "Greece", "venue": "Natal"},
+
+		{"match": "23", "group": "D", "day": "Thu", "date": "Jun 19", "local_time":"16:00", "team_1":"Uruguay", "team_2": "England", "venue": "São Paulo"},
+		{"match": "24", "group": "D", "day": "Fri", "date": "Jun 20", "local_time":"13:00", "team_1":"Italy", "team_2": "Costa Rica", "venue": "Recife"},
+
+		{"match": "25", "group": "E", "day": "Fri", "date": "Jun 20", "local_time":"16:00", "team_1":"Switzerland", "team_2": "France", "venue": "Salvador"},
+		{"match": "26", "group": "E", "day": "Fri", "date": "Jun 20", "local_time":"19:00", "team_1":"Honduras", "team_2": "Ecuador", "venue": "Curitiba"},
+
+		{"match": "27", "group": "F", "day": "Sat", "date": "Jun 21", "local_time":"13:00", "team_1":"Argentina", "team_2": "Iran", "venue": "Belo Horizonte"},
+		{"match": "28", "group": "F", "day": "Sat", "date": "Jun 21", "local_time":"18:00", "team_1":"Nigeria", "team_2": "Bosnia-Herzegovina", "venue": "Cuiabá"},
+
+		{"match": "29", "group": "G", "day": "Sat", "date": "Jun 21", "local_time":"16:00", "team_1":"Germany", "team_2": "Ghana", "venue": "Fortaleza"},
+		{"match": "30", "group": "G", "day": "Sun", "date": "Jun 22", "local_time":"18:00", "team_1":"United States", "team_2": "Portugal", "venue": "Manaus"},		
+
+		{"match": "31", "group": "H", "day": "Sun", "date": "Jun 22", "local_time":"13:00", "team_1":"Belgium", "team_2": "Russia", "venue": "Rio de Janeiro"},
+		{"match": "32", "group": "H", "day": "Sun", "date": "Jun 22", "local_time":"16:00", "team_1":"South Korea", "team_2": "Algeria", "venue": "Porto Alegre"},
+
+		{"match": "33", "group": "A", "day": "Mon", "date": "Jun 23", "local_time":"17:00", "team_1":"Cameroon", "team_2": "Brazil", "venue": "Brasilia"},
+		{"match": "34", "group": "A", "day": "Mon", "date": "Jun 23", "local_time":"17:00", "team_1":"Croatia", "team_2": "Mexico", "venue": "Recife"},
+		
+		{"match": "35", "group": "B", "day": "Mon", "date": "Jun 23", "local_time":"13:00", "team_1":"Australia", "team_2": "Spain", "venue": "Curitiba"},
+		{"match": "36", "group": "B", "day": "Mon", "date": "Jun 23", "local_time":"13:00", "team_1":"Netherlands", "team_2": "Chile", "venue": "São Paulo"},
+		
+		{"match": "37", "group": "C", "day": "Tue", "date": "Jun 24", "local_time":"16:00", "team_1":"Japan", "team_2": "Columbia", "venue": "Cuiaba"},
+		{"match": "38", "group": "C", "day": "Tue", "date": "Jun 24", "local_time":"17:00", "team_1":"Côte d'Ivoire", "team_2": "Greece", "venue": "Fortaleza"},
+		
+		{"match": "39", "group": "D", "day": "Tue", "date": "Jun 24", "local_time":"13:00", "team_1":"Italy", "team_2": "Uruguay", "venue": "Natal"},
+		{"match": "40", "group": "D", "day": "Tue", "date": "Jun 24", "local_time":"13:00", "team_1":"Costa Rica", "team_2": "England", "venue": "Belo Horizonte"},
+		
+		{"match": "41", "group": "E", "day": "Wed", "date": "Jun 25", "local_time":"16:00", "team_1":"Honduras", "team_2": "Switzerland", "venue": "Manaus"},
+		{"match": "42", "group": "E", "day": "Wed", "date": "Jun 25", "local_time":"17:00", "team_1":"Eduador", "team_2": "France", "venue": "Rio de Janeiro"},
+		
+		{"match": "43", "group": "F", "day": "Wed", "date": "Jun 25", "local_time":"13:00", "team_1":"Nigeria", "team_2": "Argentina", "venue": "Porto Alegre"},
+		{"match": "44", "group": "F", "day": "Wed", "date": "Jun 25", "local_time":"13:00", "team_1":"Bosnia-Herzegovina", "team_2": "Iran", "venue": "Salvador"},
+		
+		{"match": "45", "group": "G", "day": "Thu", "date": "Jun 26", "local_time":"13:00", "team_1":"United States", "team_2": "Germany", "venue": "Recife"},
+		{"match": "46", "group": "G", "day": "Thu", "date": "Jun 26", "local_time":"17:00", "team_1":"Portugal", "team_2": "Ghana", "venue": "Brasília"},
+		
+		{"match": "47", "group": "H", "day": "Thu", "date": "Jun 26", "local_time":"17:00", "team_1":"South Korea", "team_2": "Belgium", "venue": "São Paulo"},
+		{"match": "48", "group": "H", "day": "Thu", "date": "Jun 26", "local_time":"17:00", "team_1":"Algeria", "team_2": "Russia", "venue": "Curitiba"}
+		],
+		
+	"round_16": [ 
+		{"match": "49", "group": "Round 16", "day": "Sat", "date": "Jun 28", "local_time":"", "team_1":"1A", "team_2": "2B", "venue": "Belo Horizonte"},
+		{"match": "50", "group": "Round 16", "day": "Sat", "date": "Jun 28", "local_time":"", "team_1":"1C", "team_2": "2D", "venue": "Rio de Janeiro"},
+		
+		{"match": "51", "group": "Round 16", "day": "Sun", "date": "Jun 29", "local_time":"", "team_1":"1B", "team_2": "2A", "venue": "Fortaleza"},
+		{"match": "52", "group": "Round 16", "day": "Sun", "date": "Jun 29", "local_time":"", "team_1":"1D", "team_2": "2C", "venue": "Recife"},
+		
+		{"match": "53", "group": "Round 16", "day": "Mon", "date": "Jun 30", "local_time":"", "team_1":"1E", "team_2": "2F", "venue": "Brasília"},
+		{"match": "54", "group": "Round 16", "day": "Mon", "date": "Jun 30", "local_time":"", "team_1":"1G", "team_2": "2H", "venue": "Porto Alegre"},
+
+		{"match": "55", "group": "Round 16", "day": "Tue", "date": "Jul 1", "local_time":"", "team_1":"1F", "team_2": "2E", "venue": "São Paulo"},
+		{"match": "56", "group": "Round 16", "day": "Tue", "date": "Jul 1", "local_time":"", "team_1":"1H", "team_2": "2G", "venue": "Salvador"}
+		],
+	
+	"quarter_finals": [
+		{"match": "57", "group": "Quarter-finals", "day": "Fri", "date": "Jul 4", "local_time":"", "team_1":"W49", "team_2": "W50", "venue": "Fortaleza"},
+		{"match": "58", "group": "Quarter-finals", "day": "Fri", "date": "Jul 4", "local_time":"", "team_1":"W53", "team_2": "W54", "venue": "Rio de Janeiro"},
+		
+		{"match": "59", "group": "Quarter-finals", "day": "Sat", "date": "Jul 5", "local_time":"", "team_1":"W41", "team_2": "W52", "venue": "Salvador"},
+		{"match": "60", "group": "Quarter-finals", "day": "Sat", "date": "Jul 5", "local_time":"", "team_1":"W55", "team_2": "W56", "venue": "Brasília"}	
+	],
+	
+	"semi_finals":[
+		{"match": "61", "group": "Semi-finals", "day": "Tue", "date": "Jul 8", "local_time":"", "team_1":"W57", "team_2": "W58", "venue": "Belo Horizonte"},
+		{"match": "62", "group": "Semi-finals", "day": "Wed", "date": "Jul 9", "local_time":"", "team_1":"W59", "team_2": "W69", "venue": "São Paulo"}
+	],
+	
+	"match_third_place": [
+		{"match": "63", "group": "Third Place", "day": "Sat", "date": "Jul 12", "local_time":"", "team_1":"L61", "team_2": "L62", "venue": "Brasília"}	
+	],
+	
+	"final":[
+		{"match": "64", "group": "Final", "day": "Sun", "date": "Jul 13", "local_time":"", "team_1":"W61", "team_2": "W62", "venue": "Rio de Janeiro"}	
+	]
+		
+	}]';
+	
